@@ -94,6 +94,6 @@ function run_menu() {
 # Usage example:
 
 selected_item=0
-menu_items=('Login' 'Register' 'Guest' 'Exit')
+menu_items=('Option1' 'Option2' 'Option3' 'Exit')
 
 run_menu "$selected_item" "${menu_items[@]}"
